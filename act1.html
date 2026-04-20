@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Different Data Types</h1>
+    <script>
+        var num = 10;
+        var str = "codingal";
+        var isRaining = false;
+        var isUndefined;
+        var isNull = null;
+        var isObject = { name: "Codingal" };
+        var isSymbol = Symbol("Codingal");
+        var isFunction = function () { };
+
+        document.write("<br/>" + typeof num + "<br/>");
+        document.write("<br/>" + typeof str + "<br/>");
+        document.write("<br/>" + typeof isRaining + "<br/>");
+        document.write("<br/>" + typeof isUndefined + "<br/>");
+        document.write("<br/>" + typeof isNull + "<br/>");
+        document.write("<br/>" + typeof isObject + "<br/>");
+        document.write("<br/>" + typeof isSymbol + "<br/>");
+        document.write("<br/>" + typeof isFunction + "<br/>");
+
+        document.write("<br/>" + (num === str) + "<br/>");
+        document.write("<br/>" + (isObject === isFunction) + "<br/>");
+        document.write("<br/>" + (isUndefined === isNull) + "<br/>");
+    </script>
+</body>
+
+</html>
